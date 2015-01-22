@@ -90,6 +90,10 @@ make install
    - Pretty print JSON string
    
    <code> cat data.ini | phpcodec -t json[pretty]</code>
+
+   - Parse ini data into PHP array(var_export)
+   
+  <code> cat data.ini | phpcodec</code>
   
   ## Licese
    MIT
