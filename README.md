@@ -5,6 +5,8 @@ PHP Command line encoding &amp; decoding tool
 
 make install
 
+or
+
 make PREFIX=/usr/local install
   
 ## Licese
