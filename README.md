@@ -9,7 +9,7 @@ or
 
 make PREFIX=/usr/local install
   
-## Licese
+## License
    MIT
   
   
