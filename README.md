@@ -76,6 +76,19 @@ make install
    - Conver ini data to msgpack
    
    <code>cat data.ini | phpcodec -t msgpack</code>
+
+   - Read data from file using paramete f
+   
+   <code>phpcodec -f data.ini</code>
+
+   - Write result to specified file
+   
+   <code>cat data.ini | phpcodec -t msgpack -O result.msgpack.txt</code>
+   <code>cat data.ini | phpcodec -t msgpack > result.msgpack.txt</code>
+   
+   - Pretty print JSON string
+   
+   <code> cat data.ini | phpcodec -t json[pretty]</code>
   
   ## Licese
    MIT
