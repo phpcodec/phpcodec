@@ -84,6 +84,7 @@ make install
    - Write result to specified file
    
    <code>cat data.ini | phpcodec -t msgpack -O result.msgpack.txt</code>
+
    <code>cat data.ini | phpcodec -t msgpack > result.msgpack.txt</code>
    
    - Pretty print JSON string
