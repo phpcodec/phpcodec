@@ -16,14 +16,6 @@ make install
   Type command <code>phpcodec -l</code>
   
 ## Examples
-
-   - Convert ini content to PHP var_export
-   
-   <code>cat a.ini | phpcodec</code>
-   
-   - Convert PHP Serialize data to json
-   
-   <code>cat data.phpserialize.txt | phpcodec -t json</code>
    
    - Convert msgpack binary data to PHP var_export
    
@@ -80,10 +72,6 @@ make install
    - Convert ini data to json
    
    <code>cat data.ini | phpcodec -t json</code>
-   
-   - Convert ini data to phpserialize
-   
-   <code>cat data.ini | phpcodec -t phpserialize</code>
    
    - Conver ini data to msgpack
    
