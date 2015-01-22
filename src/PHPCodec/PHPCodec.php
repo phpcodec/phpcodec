@@ -65,7 +65,7 @@ class PHPCodec
             throw new PHPCodecException("Empty input");
         }
         
-        return $input;
+        return trim($input);
     }
     
     /**
@@ -191,7 +191,6 @@ class PHPCodec
         
         return array($fromCodec, $data);
     }
-    
     
     /**
      * Run PHPCodec

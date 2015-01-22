@@ -11,5 +11,5 @@ PHPCodec::registerCodec('php');
 PHPCodec::registerCodec('lua');
 
 //CSV Codec must be the last item
-//PHPCodec::registerCodec('csv');
+PHPCodec::registerCodec('csv');
  
