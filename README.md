@@ -3,9 +3,7 @@ PHP Command line encoding &amp; decoding tool
 
 ## Requirements
 
-PHP >= 5.4
-  with zlib
-  with msgpack
+PHP >= 5.4  with zlib,msgpack
 
 ## Installation
 
