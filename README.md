@@ -9,9 +9,9 @@ PHP >= 5.4  with zlib,msgpack
 1. make
 2. make install
 
-or
+   or
 
-make **PREFIX=/usr/local** install
+   make **PREFIX=/usr/local** install
 
 ## Examples
 
