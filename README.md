@@ -12,6 +12,10 @@ make install
 or
 
 make PREFIX=/usr/local install
+
+## Examples
+
+<code>phpcodec -h</code>
   
 ## License
    MIT
