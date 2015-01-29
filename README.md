@@ -6,12 +6,12 @@ PHP Command line encoding &amp; decoding tool
 PHP >= 5.4  with zlib,msgpack
 
 ## Install
-
-make install
+1. make
+2. make install
 
 or
 
-make PREFIX=/usr/local install
+make **PREFIX=/usr/local** install
 
 ## Examples
 
