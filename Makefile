@@ -4,7 +4,7 @@ PHP = /bin/env php
 
 all:
 	rm -f bin/phpcodec.phar
-	$(PHP) build
+	$(PHP) -c build.php.ini build
 	@echo
 	@echo "-----------------------------------------"
 	@echo Build Complete
