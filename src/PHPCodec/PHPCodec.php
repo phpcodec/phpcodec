@@ -233,7 +233,7 @@ class PHPCodec
             }
         }
         
-        if( $options['t'] == $fromCodec ) {
+        if( $options['t'] == $fromCodec && empty($codecParamString) ) {
             $output = $input;
         
         } else {
