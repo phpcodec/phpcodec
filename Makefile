@@ -1,5 +1,5 @@
 PREFIX = /usr
-PHP = /bin/env php
+PHP = /usr/bin/env php
 
 
 all:
