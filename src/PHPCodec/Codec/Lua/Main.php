@@ -83,6 +83,6 @@ class Main extends Codec
      */
     public function decode(& $input, $paramStr = null)
     {
-        var_dump($input);
+        //var_dump($input);
     }
 }
