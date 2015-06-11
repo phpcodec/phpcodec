@@ -10,8 +10,12 @@
 use PHPCodec\PHPCodec;
 use PHPCodec\Output;
 
-error_reporting(0);
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 ob_implicit_flush(true);
+
+set_error_handler(function ($errno , $errstr ,$errfile, $errline){
+    throw new  ErrorException ($errstr ,  0 ,  $errno ,  $errfile ,  $errline);
+});
 
 spl_autoload_register(function($className) {
     if( strpos($className, '/') === 0 ) {
