@@ -36,7 +36,7 @@ try {
     $phpCodec = new PHPCodec($argc, $argv);
     $phpCodec->run();
     
-} catch (Exception $e) {
+} catch (\Exception $e) {
     echo Output::getStyledString($e->getMessage(),
                         Output::COLOR_WHITE,
                         Output::BG_RED)
