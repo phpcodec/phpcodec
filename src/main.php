@@ -10,7 +10,7 @@
 use PHPCodec\PHPCodec;
 use PHPCodec\Output;
 
-error_reporting(E_ALL);
+error_reporting(0);
 ob_implicit_flush(true);
 
 spl_autoload_register(function($className) {
